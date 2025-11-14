@@ -19,8 +19,8 @@ importers:
         specifier: ^10.0.0
         version: 10.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.0)(release-it@18.1.2(@types/node@24.0.4)(typescript@5.8.3))
       '@tresjs/core':
-        specifier: 5.0.0-next.6
-        version: 5.0.0-next.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
+        specifier: 4.3.6
+        version: 4.3.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
       '@tresjs/eslint-config':
         specifier: ^1.4.0
         version: 1.4.0(@typescript-eslint/utils@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.17)(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
@@ -91,11 +91,11 @@ importers:
   docs:
     dependencies:
       '@tresjs/cientos':
-        specifier: 5.0.0-next.2
-        version: 5.0.0-next.2(@tresjs/core@5.0.0-next.3(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))(@types/three@0.172.0)(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
+        specifier: 4.3.1
+        version: 4.3.1(@tresjs/core@4.3.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))(@types/three@0.172.0)(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
       '@tresjs/core':
-        specifier: 5.0.0-next.3
-        version: 5.0.0-next.3(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
+        specifier: 4.3.6
+        version: 4.3.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
       '@tresjs/post-processing':
         specifier: workspace:^
         version: link:..
@@ -119,11 +119,11 @@ importers:
   playground:
     dependencies:
       '@tresjs/cientos':
-        specifier: 5.0.0-next.3
-        version: 5.0.0-next.3(@tresjs/core@5.0.0-next.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))(@types/three@0.172.0)(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
+        specifier: 4.3.1
+        version: 4.3.1(@tresjs/core@4.3.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))(@types/three@0.172.0)(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
       '@tresjs/core':
-        specifier: 5.0.0-next.6
-        version: 5.0.0-next.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
+        specifier: 4.3.6
+        version: 4.3.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
       '@tresjs/post-processing':
         specifier: workspace:*
         version: link:..
@@ -1003,9 +1003,6 @@ packages:
     resolution: {integrity: sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@pmndrs/pointer-events@6.6.17':
-    resolution: {integrity: sha512-+TumRqoq5p9ttBtSaRq0sifw2F9+EQRIeHGR3G2CVCibyfBtzbwaD1UbtYANQO03Fzks+CIsku20GpNAXihp7A==}
-
   '@pnpm/config.env-replace@1.1.0':
     resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
     engines: {node: '>=12.22.0'}
@@ -1202,28 +1199,15 @@ packages:
   '@tootallnate/quickjs-emscripten@0.23.0':
     resolution: {integrity: sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==}
 
-  '@tresjs/cientos@5.0.0-next.2':
-    resolution: {integrity: sha512-e0u0gkPGYlj5sNNwM9BrRxxVU6Gz44oj9cFljC/2aS2AhewkNOjL5dzaJZo/s08K3L8N8DPuvGUSYEdU8hyx+g==}
+  '@tresjs/cientos@4.3.1':
+    resolution: {integrity: sha512-3qp6lEtMrFdhxDuASP1Sz/hEi8+xcEpM6Vd6uDJysCh4uRAzyJLlBSbPoR7gVjN12wrhwJIF1AfYEFz/Vhz5ZQ==}
     peerDependencies:
       '@tresjs/core': '>=4.2.1'
       three: '>=0.133'
       vue: '>=3.3'
 
-  '@tresjs/cientos@5.0.0-next.3':
-    resolution: {integrity: sha512-p5Yezv32SitCQ8UN2TFgP4tDRodORJbyCpKACDjg0P0/rzZ98MXQiyV9vztO8HHVCfMLrtzMNZTmeate0KKFKw==}
-    peerDependencies:
-      '@tresjs/core': '>=4.2.1'
-      three: '>=0.133'
-      vue: '>=3.3'
-
-  '@tresjs/core@5.0.0-next.3':
-    resolution: {integrity: sha512-YuCnowKeVF1C9/lHJRkSoZN45Zy4N7saO2n2YJbaLVrzN4cBlonuDyH9qyAm9mgGQ1HZ8vIsDN6t/ANQ2iNXZw==}
-    peerDependencies:
-      three: '>=0.133'
-      vue: '>=3.4'
-
-  '@tresjs/core@5.0.0-next.6':
-    resolution: {integrity: sha512-zahNFe77Tbwe/hF8kz0FGnVbn9fBp0Dy/xhrQYIfQ0ZYmc1SQrz5WnN3Q1xp6PrkIlxxbN6GXQalXYGTXkIyaA==}
+  '@tresjs/core@4.3.6':
+    resolution: {integrity: sha512-CCk4+jwbiTl7Hj3REZqweglUQQdA3cF29TqJ4dEWunaBPyfsAGLTlJExK5lGIS10ptJkr8DqPvHQT41iTIb0Yg==}
     peerDependencies:
       three: '>=0.133'
       vue: '>=3.4'
@@ -5297,8 +5281,6 @@ snapshots:
 
   '@pkgr/core@0.2.7': {}
 
-  '@pmndrs/pointer-events@6.6.17': {}
-
   '@pnpm/config.env-replace@1.1.0': {}
 
   '@pnpm/network.ca-file@1.0.2':
@@ -5487,9 +5469,9 @@ snapshots:
 
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
-  '@tresjs/cientos@5.0.0-next.2(@tresjs/core@5.0.0-next.3(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))(@types/three@0.172.0)(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))':
+  '@tresjs/cientos@4.3.1(@tresjs/core@4.3.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))(@types/three@0.172.0)(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))':
     dependencies:
-      '@tresjs/core': 5.0.0-next.3(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
+      '@tresjs/core': 4.3.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
       '@vueuse/core': 12.8.2(typescript@5.8.3)
       camera-controls: 2.10.1(three@0.173.0)
       stats-gl: 2.4.2(@types/three@0.172.0)(three@0.173.0)
@@ -5504,39 +5486,10 @@ snapshots:
       - react
       - typescript
 
-  '@tresjs/cientos@5.0.0-next.3(@tresjs/core@5.0.0-next.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))(@types/three@0.172.0)(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))':
-    dependencies:
-      '@tresjs/core': 5.0.0-next.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
-      '@vueuse/core': 12.8.2(typescript@5.8.3)
-      camera-controls: 2.10.1(three@0.173.0)
-      stats-gl: 2.4.2(@types/three@0.172.0)(three@0.173.0)
-      stats.js: 0.17.0
-      three: 0.173.0
-      three-custom-shader-material: 5.4.0(three@0.173.0)
-      three-stdlib: 2.36.0(three@0.173.0)
-      vue: 3.5.17(typescript@5.8.3)
-    transitivePeerDependencies:
-      - '@react-three/fiber'
-      - '@types/three'
-      - react
-      - typescript
-
-  '@tresjs/core@5.0.0-next.3(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))':
+  '@tresjs/core@4.3.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))':
     dependencies:
       '@alvarosabu/utils': 3.2.0
-      '@pmndrs/pointer-events': 6.6.17
-      '@vue/devtools-api': 7.7.7
-      '@vueuse/core': 12.8.2(typescript@5.8.3)
-      three: 0.173.0
-      vue: 3.5.17(typescript@5.8.3)
-    transitivePeerDependencies:
-      - typescript
-
-  '@tresjs/core@5.0.0-next.6(three@0.173.0)(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))':
-    dependencies:
-      '@alvarosabu/utils': 3.2.0
-      '@pmndrs/pointer-events': 6.6.17
-      '@vue/devtools-api': 7.7.7
+      '@vue/devtools-api': 6.6.4
       '@vueuse/core': 12.8.2(typescript@5.8.3)
       three: 0.173.0
       vue: 3.5.17(typescript@5.8.3)
